@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+nav{
+  background-color: #EEF0F2;
+}
+
+ .nav-pills .nav-link.active,
+ .hero-page-text,
+ .contact-page {
+  background-color: #87194c !important;
+  color: #fff !important;
+ }
+
+
+.hero-page-image{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/healthy-organic-food-95824175.jpg);
+  background-position: 100% 79%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-image{
+  height: 497px;
+  min-width: 320px;
+  background-image: url("../images/happy-man-carrying-bag-organic-food-full-38377061.jpg");
+  background-position: 0% 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.servive-image{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/food-top.jpg");
+  background-position: 66% -55%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
