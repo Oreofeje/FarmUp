@@ -4,41 +4,68 @@
   box-sizing: border-box;
 
 }
-nav{
-  background-color: #EEF0F2;
+.bg-secondary{
+  background-color: #D5DCDC !important;
+  color: #121312 !important; 
 }
 
- .nav-pills .nav-link.active,
- .hero-page-text,
- .contact-page {
-  background-color: #87194c !important;
-  color: #fff !important;
+.navbar-brand{
+  font-family: cursive;
+}
+
+.navbar-nav .nav-link{
+  padding-left: 8px;
+}
+
+ .nav-pills .nav-link.active {
+  background-color: #fff !important;
+  color: #3c3d3c !important;
+  font-weight: 500;
  }
 
 
 .hero-page-image{
-  height: 100vh;
-  width: 100vw;
-  background-image: url(../images/healthy-organic-food-95824175.jpg);
-  background-position: 100% 79%;
+  height: 450px;
+  width: 100%;
+  background-image: url("../images/woman-farmer.jpg");
+  background-position: 100% 40%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.about-image{
-  height: 497px;
-  min-width: 320px;
-  background-image: url("../images/happy-man-carrying-bag-organic-food-full-38377061.jpg");
-  background-position: 0% 70%;
-  background-size: contain;
-  background-repeat: no-repeat;
+.hero-page-image h2{
+  font-size:40px;
 }
 
+.hero-page-image hr{
+  height:6px ;
+  width: 15rem;
+}
+
+.hero-page-image h1{
+  font-size:35px;
+  font-weight: 700;
+}
+
+.signupLetter .image{
+  width: 290px;
+}
+
+.signupLetter .image img,
+.servive-image img{
+  width: 100%;
+  height: 22rem;
+}
+.about-image img{
+  height: 19rem;
+  width: 100%;
+}
+.story-image{
+  width: 25rem;
+}
+.story-image img{
+  width: 100%;
+}
 .servive-image{
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../images/food-top.jpg");
-  background-position: 66% -55%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 620px;
 }
